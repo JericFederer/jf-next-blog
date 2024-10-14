@@ -33,5 +33,5 @@ export const {
       return session;
     },
   },
-  secret: "atr5-gt65-9jet"
+  secret: process.env.AUTH_SECRET
 });
